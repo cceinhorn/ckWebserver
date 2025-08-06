@@ -1,0 +1,13 @@
+[调用日志宏]
+    ↓
+Logger（构建日志对象，拼接信息，析构时写入日志）
+    ↓
+LogStream（使用 operator<< 写入到 buffer）
+    ↓
+Logger::setOutput → AsyncLogging::append（将日志放入缓冲区）
+    ↓
+后台线程（AsyncLogging::threadFunc）
+    ↓
+LogFile::append → FileUtil::append
+    ↓
+文件输出
