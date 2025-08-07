@@ -43,7 +43,8 @@ cd bin
 ```
 
 # 测试结果
-
+虚拟机  CentOS: 7  4核8G
+![testwebbench](https://github.com/cceinhorn/Webserver/blob/main/testwebbench.png)
 
 # 致谢
 [muduo](https://github.com/chenshuo/muduo)
