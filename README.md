@@ -37,9 +37,14 @@ Webserver
 bash build.sh
 ```
 ```shell
-cd bin
+
 // 启动
-./ckserver
+./bin/ckserver
+
+// webbench测试
+cd webbench
+make
+./webbench -c 10000 -t 10 http://127.0.0.1:2025/
 ```
 
 # 测试结果
