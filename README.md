@@ -48,7 +48,7 @@ make
 ```
 
 # 测试结果
-虚拟机  CentOS：7  4核 8G
+虚拟机  CentOS7  4核 8G
 
 ![testwebbench](https://github.com/cceinhorn/Webserver/blob/main/testwebbench.png)
 
