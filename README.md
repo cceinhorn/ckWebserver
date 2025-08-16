@@ -28,6 +28,7 @@ Webserver
 ├── build.sh        编译文件
 ├── CMakeLists.txt 
 ├── README.md
+├── database.png     数据库查询测试
 └── testwebbench.png 压测结果
 ```
 
@@ -55,7 +56,7 @@ make
 
 数据库查询
 
-![testwebbench](https://github.com/cceinhorn/Webserver/blob/main/testdatabase.png)
+![testwebbench](https://github.com/cceinhorn/Webserver/blob/main/database.png)
 
 # 致谢
 [muduo](https://github.com/chenshuo/muduo)
