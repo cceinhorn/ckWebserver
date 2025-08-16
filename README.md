@@ -53,10 +53,6 @@ make
 
 ![testwebbench](https://github.com/cceinhorn/Webserver/blob/main/testwebbench.png)
 
-数据库查询
-
-![testdatabase](https://github.com/cceinhorn/Webserver/blob/main/testdatabase.png)
-
 # 致谢
 [muduo](https://github.com/chenshuo/muduo)
 
