@@ -49,8 +49,10 @@ make
 
 # 测试结果
 虚拟机  CentOS7  4核 8G
-
+压测
 ![testwebbench](https://github.com/cceinhorn/Webserver/blob/main/testwebbench.png)
+数据库查询
+![testdatabase](https://github.com/cceinhorn/Webserver/blob/main/testdatabase.png)
 
 # 致谢
 [muduo](https://github.com/chenshuo/muduo)
